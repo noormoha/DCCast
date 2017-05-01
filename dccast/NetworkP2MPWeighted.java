@@ -5,6 +5,8 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.TreeMap;
 import java.util.StringJoiner;
+import java.util.ArrayList;
+import java.util.LinkedList;
 
 /**
  *
@@ -15,8 +17,6 @@ import java.util.StringJoiner;
 import graphTheory.algorithms.steinerProblems.steinerArborescenceApproximation.GFLACAlgorithm;
 import graphTheory.graph.DirectedGraph;
 import graphTheory.instances.steiner.classic.SteinerDirectedInstance;
-import java.util.ArrayList;
-import java.util.LinkedList;
 //////////////////////////////////////////////////////////////////////////
 
 public class NetworkP2MPWeighted {
