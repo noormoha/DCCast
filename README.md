@@ -10,10 +10,14 @@ This repository provides Java code implementing the algorithms presented in "DCC
 - At the end of each slot, the program prints the schedule for next timeslot.
 
 # How to run the program
-- All the necessary dependencies are included (the graphTheory directory).
+- All the necessary dependencies are included (the [graphTheory](dccast/graphTheory) directory for Steiner Tree selection).
 - The file that contains the main function is [dccast/Dccast.java](dccast/Dccast.java).
 - The output is simply printed out to the terminal.
 
 # DCCast algorithm
 The main algorithm is implemented in three functions all in [dccast/NetworkP2MPWeighted.java](dccast/NetworkP2MPWeighted.java):
-- [routeTraffic](https://github.com/noormoha/DCCast/blob/master/dccast/NetworkP2MPWeighted.java#L199)
+- [routeTraffic](https://github.com/noormoha/DCCast/blob/master/dccast/NetworkP2MPWeighted.java#L199) performs the tree selection and then calls PathAllocate.
+- [PathAllocate](https://github.com/noormoha/DCCast/blob/master/dccast/NetworkP2MPWeighted.java#L282) schedules the request to finish as early as possible given available bandwidth on the tree selected by routeTraffic.
+- [walk](https://github.com/noormoha/DCCast/blob/master/dccast/NetworkP2MPWeighted.java#L324) moves one step forward at the end of every timeslot. It prints the schedule for next slot and updates load variables for all edges. 
+
+Thank you for visiting this repository.
