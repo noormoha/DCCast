@@ -22,6 +22,6 @@ The main algorithm is implemented in three functions all in [dccast/NetworkP2MPW
 
 Thank you for visiting this repository.
 
-Please view the poster we presented at the HotCloud'17 conference below.
+Please view the poster we presented at the HotCloud'17 conference below. The paper can be found [HERE](https://www.usenix.org/conference/hotcloud17/program/presentation/noormohammadpour).
 
-![Alt text](DCCAST_POSTER.png?raw=true "DCCAST: Adaptive Tree Selection for Efficient Point to Multipoint Transfers Across Datacenters")
+![DCCAST: Adaptive Tree Selection for Efficient Point to Multipoint Transfers Across Datacenters](DCCAST_POSTER.png?raw=true "DCCAST: Adaptive Tree Selection for Efficient Point to Multipoint Transfers Across Datacenters")
