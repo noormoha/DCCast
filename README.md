@@ -22,6 +22,10 @@ The main algorithm is implemented in three functions all in [dccast/NetworkP2MPW
 
 Thank you for visiting this repository.
 
-Please view the poster we presented at the HotCloud'17 conference below. The paper can be found [HERE](https://www.usenix.org/conference/hotcloud17/program/presentation/noormohammadpour).
+Please view the poster we presented at the HotCloud'17 conference below. The DCCast paper can be found [HERE](hotcloud17-paper-noormohammadpour.pdf?raw=true).
 
 ![DCCAST: Adaptive Tree Selection for Efficient Point to Multipoint Transfers Across Datacenters](DCCAST_POSTER.png?raw=true "DCCAST: Adaptive Tree Selection for Efficient Point to Multipoint Transfers Across Datacenters")
+
+# Recent Publications
+We have been working on improving DCCast using a variety of techniques and will post related research efforts in the following.
+- [QuickCast: Fast and Efficient Inter-Datacenter Transfers using Forwarding Tree Cohorts](Infocom18-paper-noormohammadpour.pdf?raw=true) has been accepted to INFOCOM 2018. We partitioned receivers into multiple subsets each attached to the sender using an independent tree. With this approach, overall throughput increases for many trees by avoiding bottlenecks. We also exercise the fair sharing policy of Max-Min Fairness and show that it can improve utilization significantly at higher loads and over larger forwarding trees.
