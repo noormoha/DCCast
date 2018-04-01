@@ -1,5 +1,6 @@
-# DCCast
-Adaptive Tree Selection for Efficient Point to Multipoint Transfers Across Datacenters
+# DCCast: Efficient Point to Multipoint (P2MP) Transfers Across Datacenters
+
+P2MP transfers are a simplified version of multicasting where the sender and all receivers are known and fixed upon a transfer's arrival as well as the volume of data to be delivered.
 
 This repository provides Java code implementing the algorithms presented in "DCCast: Efficient Point to Multipoint Transfers Across Datacenters". This includes a minimal implementation to represent network topologies and point to multipoint (p2mp) transfers, and to generate transfers with uniform or exponential distribution.
 
@@ -29,4 +30,4 @@ Please view the poster we presented at the HotCloud'17 conference below. The DCC
 # Recent Publications
 We have been working on improving DCCast using a variety of techniques and will post related research efforts in the following.
 - [QuickCast: Fast and Efficient Inter-Datacenter Transfers using Forwarding Tree Cohorts](Infocom18-paper-noormohammadpour.pdf?raw=true) has been accepted to INFOCOM 2018. We partitioned receivers into multiple subsets each attached to the sender using an independent tree. With this approach, overall throughput increases for many trees by avoiding bottlenecks. We also exercise the fair sharing policy of Max-Min Fairness and show that it can improve utilization significantly at higher loads and over larger forwarding trees.
-- [Minimizing Flow Completion Times using Adaptive Routing over Inter-Datacenter Wide Area Networks](infocom2018_paper_noormohammadpour.pdf?raw=true) has been accepted to INFOCOM 2018 Poster/Demo Sessions. We have comprehensively evaluated a variety of weight assignment techniques for path selection over inter-datacenter WAN and have shown that the weights used in DCCast actually lead to minimum completion times and bandwidth consumption for a variety of scheduling policies and traffic patterns.
+- [Minimizing Flow Completion Times using Adaptive Routing over Inter-Datacenter Wide Area Networks](infocom2018_poster_noormohammadpour.pdf?raw=true) has been accepted to INFOCOM 2018 Poster/Demo Sessions. We have comprehensively evaluated a variety of weight assignment techniques for path selection over inter-datacenter WAN and have shown that the weights used in DCCast actually lead to minimum completion times and bandwidth consumption for a variety of scheduling policies and traffic patterns.
